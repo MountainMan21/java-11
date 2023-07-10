@@ -36,9 +36,7 @@ public class java {
 		 int [] values = { 7 ,78, 56, 23, 667, 12};
 		 int max = Integer.MIN_VALUE;
 		 for(int valuesnew:values) {
-			 if(valuesnew>max) {
-				max = valuesnew ;
-			 }
+			max = valuesnew>max ? valuesnew:max;
 			 
 				 
 		 }
@@ -49,15 +47,15 @@ public class java {
 		 int [] values1 = {7 ,78, 56, 23, 667};
 		 int min = Integer.MAX_VALUE;
 		 for(int valuesnew:values1) {
-			 if(valuesnew<min) {
-				min = valuesnew ;
+			min = valuesnew<min ? valuesnew: min;
+			
 			 }
-			 
+		 System.out.println(min);
 				 
 		 }
-		System.out.println(min);
+		
 		
 		 	
 	}
 
-}
+
