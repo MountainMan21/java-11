@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Ash
+ *
+ */
+module RockPaperScissors {
+}
